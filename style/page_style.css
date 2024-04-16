@@ -1,0 +1,51 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.nav{
+    height:10vh;
+    background-color: gray;
+    display: flex;
+    width: 100%;
+}
+.logo {
+   width: 30%;
+   display: flex;
+   justify-content: start;
+   align-items: center;
+   
+}
+.search{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search input{
+    height: 3vh;
+    width: 100%;
+
+}
+.list{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    
+}
+.list ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+
+}
+.list ul li {
+    list-style: none;
+    
+}
+.list ul li a{
+    text-decoration: none;
+    color: black;
+    
+}

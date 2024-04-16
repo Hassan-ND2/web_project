@@ -113,15 +113,15 @@ form{
     cursor: pointer;
 
 }
-button{
+a button{
     border: 1px solid black;
-    border-radius: 10px;
-    width: 30%;
+    border-radius: 20px;
     padding: 10px;
-    background-color:rgb(237, 149, 61);
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: large;
+    cursor: pointer;
 }
+
 
 @media screen and (orientation:portrait) {
     .container{
@@ -136,7 +136,8 @@ button{
         height: 25px;
     }
     .container{
-        width: 54%;
+        width: 70%;
+
     }
    
     
