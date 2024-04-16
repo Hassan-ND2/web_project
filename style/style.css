@@ -56,8 +56,9 @@ form{
     height: 30px;
     padding-left: 10px;
     /* border:2px solid grey; */
-    box-shadow: 2px 1px rgb(129, 122, 122);
+    box-shadow: 2px 2px rgb(129, 122, 122);
     border-top-left-radius: 8px;
+    border: 1px solid gray;
    
 
 }
@@ -113,13 +114,26 @@ form{
     cursor: pointer;
 
 }
-a button{
-    border: 1px solid black;
-    border-radius: 20px;
-    padding: 10px;
+ button {
+  
+    text-decoration: none;
+    padding: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: large;
     cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 3px 3px 0 0 gray;
+    transition: 0.5s;
+    border: 1px solid gray;
+}
+button a{
+    text-decoration: none;
+    color: black;
+    
+}
+button:hover{
+    background-color: gray;
+    color: white;
 }
 
 
